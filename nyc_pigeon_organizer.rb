@@ -13,6 +13,8 @@ new_data = data.each_pair { | pair |
   pair
 }
 
+  puts new_data
+
 def symbol_to_string(array)
   converted_array = array.map { |symbol|
     symbol.to_s
