@@ -8,7 +8,7 @@ def nyc_pigeon_organizer(data)
   all_colors_sym = data[:color].keys
   all_genders_sym = data[:gender].keys
   all_lives = data[:lives].keys
-  
+
 
 
 def symbol_to_string(array)
