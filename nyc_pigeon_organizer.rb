@@ -10,7 +10,7 @@ def nyc_pigeon_organizer(data)
 
   p all_colors
   p all_genders
-  p all_colors
+  p all_lives
 
 #create array of pigeon names
   pigeon_names_collection = data[:gender].map { |gender,pigeons|
