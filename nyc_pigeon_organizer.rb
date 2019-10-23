@@ -8,12 +8,15 @@ def nyc_pigeon_organizer(data)
   all_genders = data[:gender].keys
   all_lives = data[:lives].keys
 
+  p all_colors
+  p all_genders
+  p all_colors
+
 #create array of pigeon names
   pigeon_names_collection = data[:gender].map { |gender,pigeons|
     pigeons
       }
   pigeon_names = pigeon_names_collection.flatten
-  p pigeon_names
 
   #prepare standard format
       standard_format = {
