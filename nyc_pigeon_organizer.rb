@@ -29,6 +29,9 @@ all_genders = symbol_to_string(all_genders_sym)
       }
   pigeon_names = pigeon_names_collection.flatten
 
+
+
+
   #prepare standard format
       standard_format = {
         color: [],
