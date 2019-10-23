@@ -23,16 +23,11 @@ def nyc_pigeon_organizer(data)
       }
 
 #convert name array to a empty hash
-      pigeon_hash = Hash[pigeon_names.collect { |pigeon|
+      pigeon_hash = Hash[pigeon_names.map { |pigeon|
         [pigeon,standard_format]
         }]
 
 
-
-
-color_data = map_method(data, :color)
-gender_data = map_method(data, :gender)
-area_data = map_method(data, :lives)
 
 
   result
