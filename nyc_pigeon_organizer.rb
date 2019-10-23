@@ -42,6 +42,8 @@ all_genders = symbol_to_string(all_genders_sym)
         [pigeon,standard_format]
         }]
 
+pigeon_hash["Alex"][:color] = ["brown","polka dot"]
+
 puts pigeon_hash["Alex"]
 
 #birds and selectors
