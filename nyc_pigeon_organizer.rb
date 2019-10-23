@@ -56,6 +56,7 @@ def find_the_pigeon_nonlives(bird, property_to_search, value_to_search, data)
       i +=1
     end
   return false
+  end
 end
 
 def find_the_pigeon_lives(bird, property_to_search, value_to_search, data)
@@ -69,7 +70,7 @@ def find_the_pigeon_lives(bird, property_to_search, value_to_search, data)
       i +=1
     end
   return false
-end
+  end
 end
 
 
