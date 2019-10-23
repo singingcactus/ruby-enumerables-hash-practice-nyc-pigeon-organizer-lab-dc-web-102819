@@ -4,8 +4,8 @@ def nyc_pigeon_organizer(data)
 
 
 #create potential values
-  all_colors = data[:color].keys
-  all_genders = data[:gender].keys
+  all_colors_sym = data[:color].keys
+  all_genders_sym = data[:gender].keys
   all_lives = data[:lives].keys
 
   p all_colors
