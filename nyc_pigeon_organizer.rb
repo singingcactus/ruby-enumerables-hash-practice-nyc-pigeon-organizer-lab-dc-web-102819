@@ -47,11 +47,11 @@ all_genders = symbol_to_string(all_genders_sym)
 def crazy_method(data, bird, color_options)
   dataset = data
 
-  
-  while 
-    
 
-    
+  while
+
+
+
 
 #birds and selectors
 def find_the_pigeon_nonlives(bird, property_to_search, value_to_search, data)
