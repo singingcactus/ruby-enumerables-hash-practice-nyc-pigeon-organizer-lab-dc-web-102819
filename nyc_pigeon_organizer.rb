@@ -46,9 +46,18 @@ all_genders = symbol_to_string(all_genders_sym)
 #gigantic while loop attempt
 def crazy_method(data, bird, top_level_options, color_options, gender_options, lives_options)
   dataset = data
+  keys = top_level_options
+  bird_search = bird
+  bird_propertes = {}
 
+  k = 0
+  while k < keys.length do
+    if dataset[keys]
+      
+    end
 
-  while
+    
+  end
 
 
 
