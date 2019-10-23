@@ -4,11 +4,11 @@ def nyc_pigeon_organizer(data)
 
 
 #create potential values
+  all_top_level_keys = data.keys
   all_colors_sym = data[:color].keys
   all_genders_sym = data[:gender].keys
   all_lives = data[:lives].keys
-  all_top_level = data.keys
-
+  
 
 
 def symbol_to_string(array)
@@ -44,7 +44,7 @@ all_genders = symbol_to_string(all_genders_sym)
 
 
 #gigantic while loop attempt
-def crazy_method(data, bird, color_options)
+def crazy_method(data, bird, top_level_options, color_options, gender_options, lives_options)
   dataset = data
 
 
