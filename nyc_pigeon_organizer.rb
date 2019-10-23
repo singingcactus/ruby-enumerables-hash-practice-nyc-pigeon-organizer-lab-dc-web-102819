@@ -53,10 +53,10 @@ def crazy_method(data, bird, top_level_options, color_options, gender_options, l
   k = 0
   while k < keys.length do
     if dataset[keys]
-      
+
     end
 
-    
+
   end
 
 
