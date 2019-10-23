@@ -39,10 +39,6 @@ all_genders = symbol_to_string(all_genders_sym)
         [pigeon,standard_format]
         }]
 
-pigeon_hash["Alex"][:color] = ["brown","polka dot"]
-
-puts pigeon_hash["Alex"]
-puts pigeon_hash["Theo"]
 
 #birds and selectors
 def find_the_pigeon_nonlives(bird, property_to_search, value_to_search, data)
