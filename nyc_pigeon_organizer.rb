@@ -58,6 +58,18 @@ def find_the_pigeon_nonlives(bird, property_to_search, value_to_search, data)
   return false
 end
 
+def find_the_pigeon_lives(bird, property_to_search, value_to_search, data)
+  for_search = value_to_search
+
+  i = 0
+  while i < data[property_to_search][value_to_search].length do
+    if for_search == data[property_to_search][value_to_search][i]
+      return true
+    else
+      i +=1
+    end
+  return false
+end
 
   result
 end
