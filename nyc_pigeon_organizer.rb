@@ -42,7 +42,7 @@ all_genders = symbol_to_string(all_genders_sym)
         [pigeon,standard_format]
         }]
 
-puts pigeon_hash
+puts pigeon_hash["Alex"]
 
 #birds and selectors
 def find_the_pigeon_nonlives(bird, property_to_search, value_to_search, data)
@@ -70,6 +70,8 @@ def find_the_pigeon_lives(bird, property_to_search, value_to_search, data)
     end
   return false
 end
+
+
 
   result
 end
