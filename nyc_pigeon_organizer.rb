@@ -7,13 +7,9 @@ def nyc_pigeon_organizer(data)
   all_colors_sym = data[:color].keys
   all_genders_sym = data[:gender].keys
   all_lives = data[:lives].keys
+  all_top_level = data.keys
 
-#the reduction
-new_data = data.each_pair { | pair |
-  pair
-}
-  puts data
-  puts new_data
+
 
 def symbol_to_string(array)
   converted_array = array.map { |symbol|
@@ -46,6 +42,16 @@ all_genders = symbol_to_string(all_genders_sym)
         [pigeon,standard_format]
         }]
 
+
+#gigantic while loop attempt
+def crazy_method(data, bird, color_options)
+  dataset = data
+
+  
+  while 
+    
+
+    
 
 #birds and selectors
 def find_the_pigeon_nonlives(bird, property_to_search, value_to_search, data)
