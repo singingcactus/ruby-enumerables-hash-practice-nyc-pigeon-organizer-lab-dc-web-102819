@@ -19,9 +19,6 @@ end
 all_colors = symbol_to_string(all_colors_sym)
 all_genders = symbol_to_string(all_genders_sym)
 
-  p all_colors
-  p all_genders
-  p all_lives
 
 #create array of pigeon names
   pigeon_names_collection = data[:gender].map { |gender,pigeons|
