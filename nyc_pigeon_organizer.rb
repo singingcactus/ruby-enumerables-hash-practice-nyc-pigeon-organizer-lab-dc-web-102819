@@ -8,6 +8,17 @@ def nyc_pigeon_organizer(data)
   all_genders_sym = data[:gender].keys
   all_lives = data[:lives].keys
 
+def symbol_to_string(array)
+  converted_array = array.map { |symbol|
+    symbol.to_s
+    }
+
+  converted_array
+end
+
+all_colors = symbol_to_string(all_colors_sym)
+all_genders = symbol_to_string(all_genders_sym)
+
   p all_colors
   p all_genders
   p all_lives
