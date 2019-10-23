@@ -27,7 +27,7 @@ def nyc_pigeon_organizer(data)
         [pigeon,standard_format]
         }]
 
-
+puts pigeon_hash
 
 
   result
