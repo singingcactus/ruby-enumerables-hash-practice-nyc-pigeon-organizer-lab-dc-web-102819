@@ -12,7 +12,7 @@ def nyc_pigeon_organizer(data)
 new_data = data.each_pair { | pair |
   pair
 }
-
+  puts data
   puts new_data
 
 def symbol_to_string(array)
